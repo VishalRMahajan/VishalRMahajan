@@ -55,11 +55,11 @@
 <br />
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalrmahajan&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="vishalrmahajan" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalrmahajan&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vishalrmahajan" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishalrmahajan&show_icons=true&theme=tokyonight&locale=en" alt="vishalrmahajan" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vishalrmahajan&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vishalrmahajan" />
 </p>
 
 <p align="left">
