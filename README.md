@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vishalrmahajan&label=Profile%20views&color=0e75b6&style=flat" alt="vishalrmahajan" /> </p>
 
-- 🔭 I’m currently working on **Thyroid Disease Detection**
+- 🔭 I’m currently working on **Thyroid Disease Detection** and **WarpTalent**
 
 - 🌱 I’m currently learning **Deep Learning**
 
