@@ -61,7 +61,3 @@
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=vishalrmahajan&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vishalrmahajan" />
 </p>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishalrmahajan&theme=dark" alt="vishalrmahajan" />
-</p>
