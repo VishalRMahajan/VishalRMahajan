@@ -54,10 +54,28 @@
 
 <br />
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalrmahajan&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vishalrmahajan" />
+
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/VishalRMahajan">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=VishalRMahajan&theme=transparent" />
+  </a>
 </p>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishalrmahajan&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vishalrmahajan" />
+<a> 
+    <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=VishalRMahajan&count_private=true&theme=algolia" height="192px" width="49.5%"/></a>
+  <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=VishalRMahajan&langs_count=8&layout=compact&theme=algolia" height="192px" width="49.5%"/></a>
+  <br/>
+</a>
+
+<br />
+
+<p align="center">
+  <a href="https://github.com/VishalRMahajan">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VishalRMahajan&theme=algolia" alt="Vishal Mahajan's GitHub Contribution"/>
+  </a>
 </p>
+
+![My Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=VishalRMahajan&custom_title=Vishal%20Mahajan's%20GitHub%20Activity%20Graph&theme=arctic)
