@@ -1,0 +1,11 @@
+settings:
+  username: "cdhiraj40"
+  commit_msg: "Update README with the recent activity"
+  readme_file: "./README.md"
+  disabled_events:
+    - "comments"
+    - "create_repo"
+  date:
+    text: "Last Updated: {DATE} (GMT)"
+  ignored_repos:
+    - VishalRMahajan/VishalRMahajan
