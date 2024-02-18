@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Vishal Rajesh Mahajan</h1>
-<h3 align="center">A passionate Data Scientist from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vishalrmahajan&label=Profile%20views&color=0e75b6&style=flat" alt="vishalrmahajan" /> </p>
 
@@ -54,28 +53,13 @@
 
 <br />
 
-
-
-<br/>
-
-<p align="center">
-  <a href="https://github.com/VishalRMahajan">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=VishalRMahajan&theme=transparent" />
-  </a>
-</p>
-
 <a> 
     <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=VishalRMahajan&count_private=true&theme=algolia" height="192px" width="49.5%"/></a>
   <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=VishalRMahajan&langs_count=8&layout=compact&theme=algolia" height="192px" width="49.5%"/></a>
   <br/>
 </a>
 
-<br />
 
-<p align="center">
-  <a href="https://github.com/VishalRMahajan">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VishalRMahajan&theme=algolia" alt="Vishal Mahajan's GitHub Contribution"/>
-  </a>
-</p>
 
-![My Commit Graph](https://github-readme-activity-graph.vercel.app/graph?username=VishalRMahajan&custom_title=Vishal%20Mahajan's%20GitHub%20Activity%20Graph&theme=arctic)
+
+
