@@ -43,7 +43,7 @@
 
 <a> 
     <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Github Stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=VishalRMahajan&count_private=true&theme=algolia" height="192px" width="49.5%"/></a>
-  <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=VishalRMahajan&langs_count=8&layout=compact&theme=algolia" height="192px" width="49.5%"/></a>
+  <a href="https://github.com/VishalRMahajan"><img alt="Vishal Mahajan's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalRMahajan&hide_progress=true&theme=algolia&hide=jupyter" height="192px" width="49.5%"/></a>
   <br/>
 </a>
 
