@@ -31,7 +31,7 @@
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?logo=anaconda&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_code-007ACC?logo=sublimetext&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_code-007ACC?logo=visualstudiocode&logoColor=white)
 ![PyCharm Professional](https://img.shields.io/badge/PyCharm_Professional-000000?logo=pycharm&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
