@@ -57,8 +57,8 @@
   <br/>
 </a>
 
-<!--START_CONTRIBUTIONS-->
-<!--END_CONTRIBUTIONS-->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 
 
