@@ -1,0 +1,52 @@
+name: Update Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update_contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.MY_SECRET_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            async function run() {
+              const response = await github.graphql(`
+                query {
+                  user(login: "${{ github.actor }}") {
+                    repositoriesContributedTo(first: 10, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) {
+                      nodes {
+                        nameWithOwner
+                        url
+                      }
+                    }
+                  }
+                }
+              `);
+
+              const repositories = response.user.repositoriesContributedTo.nodes;
+
+              let readme = fs.readFileSync('README.md', 'utf8');
+
+              let startIndex = readme.indexOf('<!--START_CONTRIBUTIONS-->');
+              let endIndex = readme.indexOf('<!--END_CONTRIBUTIONS-->');
+
+              let contributionsList = '';
+              for (const repo of repositories) {
+                contributionsList += `- [${repo.nameWithOwner}](${repo.url})\n`;
+              }
+
+              let updatedReadme = readme.slice(0, startIndex + 26) + contributionsList + readme.slice(endIndex);
+
+              fs.writeFileSync('README.md', updatedReadme, 'utf8');
+            }
+
+            run();
