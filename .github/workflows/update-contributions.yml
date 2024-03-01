@@ -23,30 +23,38 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_SECRET_TOKEN }}
         run: |
-          const { Octokit } = require('@octokit/core');
-          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+          const core = require('@actions/core');
+          const github = require('@actions/github');
 
           async function run() {
-            const response = await octokit.request('GET /user/repos', {
-              visibility: 'public',  // Change visibility as needed (e.g., 'private', 'all')
-              per_page: 10
-            });
+            try {
+              const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
 
-            const repositories = response.data;
+              const response = await octokit.repos.listForAuthenticatedUser({
+                visibility: 'public',
+                per_page: 10
+              });
 
-            let readme = fs.readFileSync('README.md', 'utf8');
+              const repositories = response.data;
 
-            let startIndex = readme.indexOf('<!--START_CONTRIBUTIONS-->');
-            let endIndex = readme.indexOf('<!--END_CONTRIBUTIONS-->');
+              let readme = await fs.promises.readFile('README.md', 'utf8');
 
-            let contributionsList = '';
-            for (const repo of repositories) {
-              contributionsList += `- [${repo.full_name}](${repo.html_url})\n`;
+              let startIndex = readme.indexOf('<!--START_CONTRIBUTIONS-->');
+              let endIndex = readme.indexOf('<!--END_CONTRIBUTIONS-->');
+
+              let contributionsList = '';
+              for (const repo of repositories) {
+                contributionsList += `- [${repo.full_name}](${repo.html_url})\n`;
+              }
+
+              let updatedReadme = readme.slice(0, startIndex + 26) + contributionsList + readme.slice(endIndex);
+
+              await fs.promises.writeFile('README.md', updatedReadme, 'utf8');
+
+              console.log('README updated successfully.');
+            } catch (error) {
+              core.setFailed(error.message);
             }
-
-            let updatedReadme = readme.slice(0, startIndex + 26) + contributionsList + readme.slice(endIndex);
-
-            fs.writeFileSync('README.md', updatedReadme, 'utf8');
           }
 
           run();
