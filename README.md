@@ -2,7 +2,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vishalrmahajan&label=Profile%20views&color=0e75b6&style=flat" alt="vishalrmahajan" /> </p>
 
-- 🔭 I’m currently working on **ML Honors Project**
+- 🔭 I’m currently working on **ML Research Paper**
 
 - 🌱 I’m currently learning **Deep Learning**
 
