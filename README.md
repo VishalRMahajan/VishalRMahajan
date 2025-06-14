@@ -38,9 +38,7 @@
 
 
 <div align="center">
-<img height="158em" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VishalRMahajan&theme=github_dark">
-<img height="158em" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=VishalRMahajan&theme=github_dark">
-<img height="160em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VishalRMahajan&theme=github_dark&exclude=java,CSS,EJS,Jupyter%20Notebook">
-<img height="160em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VishalRMahajan&theme=github_dark&exclude=java,CSS,EJS,Jupyter%20Notebook">
+<img height="160em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VishalRMahajan&theme=github_dark&exclude=java,CSS,EJS,Jupyter%20Notebook,HTML">
+<img height="160em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VishalRMahajan&theme=github_dark&exclude=java,CSS,EJS,Jupyter%20Notebook,HTML">
 </div>
 
