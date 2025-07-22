@@ -2,7 +2,7 @@
   <a href="https://vishalrmahajan.in">
    <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=40&duration=2000&color=F7F7F7&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=120&lines=Hey%20%F0%9F%91%8B%20!%20I'm%20;Vishal%20Mahajan" />
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=40&duration=2000&color=#0e0e0e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=120&lines=Hey%20%F0%9F%91%8B%20!%20I'm%20;Vishal%20Mahajan" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=40&duration=2000&color=0e0e0e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=120&lines=Hey%20%F0%9F%91%8B%20!%20I'm%20;Vishal%20Mahajan" />
 </picture>
   </a>
 </p>
