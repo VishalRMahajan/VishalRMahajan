@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://vishalrmahajan.in">
     <picture>
-      <img alt="header" width="63%" src="https://github.com/user-attachments/assets/057362b1-f25a-425a-9502-90be60b7d1a1" />
+      <img alt="header" src="https://github.com/user-attachments/assets/057362b1-f25a-425a-9502-90be60b7d1a1" />
     </picture>
   </a>
 </p><p align="center">
