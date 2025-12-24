@@ -36,8 +36,8 @@
 
 
 <p align="center">
- <img height="175em" src="https://github-readme-stats.vercel.app/api?username=VishalRMahajan&show_icons=true&theme=github_dark&hide_title=true&hide=issues&hide_rank=true&hide_border=true&bg_color=0e1a2e&title_color=3D978F&text_color=d1d1d1&icon_color=378c80" alt="GitHub Stats" style="max-width: 100%; height: auto;" />
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalRMahajan&layout=compact&langs_count=6&theme=github_dark&hide=java,css,ejs,jupyter%20notebook,html,c,matlab,batchfile,procfile&hide_border=true&bg_color=0e1a2e&title_color=d1d1d1&text_color=C4C4C4" alt="Top Languages" style="max-width: 100%; height: auto;" />
+ <img height="175em" src="https://readme.vishalrmahajan.in/api?username=vishalrmahajan&show_icons=true&theme=github_dark&hide_title=true&hide=issues&hide_rank=true&hide_border=true&bg_color=0e1a2e&title_color=3D978F&text_color=d1d1d1&icon_color=378c80" alt="GitHub Stats" style="max-width: 100%; height: auto;" />
+<img height="175em" src="https://readme.vishalrmahajan.in/api/top-langs/?username=vishalrmahajan&layout=compact&langs_count=6&theme=github_dark&hide=java,css,ejs,jupyter%20notebook,html,c,matlab,batchfile,procfile&hide_border=true&bg_color=0e1a2e&title_color=d1d1d1&text_color=C4C4C4" alt="Top Languages" style="max-width: 100%; height: auto;" />
 </p>
 
 
